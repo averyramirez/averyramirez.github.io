@@ -1,0 +1,309 @@
+body { 
+    background: url("https://i.imgur.com/WaZk8ky.jpg") no-repeat center top fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+/* Navbar */
+
+.navbar {
+    transition: all 0.4s;
+}
+
+.navbar .nav-link {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color: white;    
+    text-shadow: 2px 2px green;
+    letter-spacing: 4px;
+    font-size: 30px;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color: white;    
+    text-shadow: 2px 2px orange;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.navbar .navbar-brand {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color: white;    
+    text-shadow: 2px 2px orange;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+
+/* Change navbar styling on scroll */
+.navbar.active {
+    background: #fff;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.active .nav-link {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color: white;    
+    text-shadow: 2px 2px orange;
+    letter-spacing: 4px;
+    text-decoration: none;
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color: white;    
+    text-shadow: 2px 2px orange;
+    letter-spacing: 4px;
+    text-decoration: none;
+    text-decoration: none;
+}
+
+.navbar.active .navbar-brand {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color: white;    
+    text-shadow: 2px 2px orange;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 60px;
+}
+
+
+/* Change navbar styling on small viewports */
+@media (max-width: 991.98px) {
+    .navbar {
+        background: transparent;
+    }
+
+    .navbar .navbar-brand, .navbar .nav-link {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color: white;    
+    text-shadow: 2px 2px orange;
+    letter-spacing: 4px;
+    text-decoration: none;
+    }
+}
+
+
+
+
+/* h1 */
+
+
+@media screen and (max-width:360px){
+    h1 {
+        font-family: 'Alegreya Sans SC', sans-serif;
+        color: white;    
+        text-shadow: 2px 2px orange;
+        letter-spacing: 4px;
+        margin-top: 250px;
+        font-size: 55px;
+        justify-content: center;
+    }  
+}
+
+
+@media screen and (min-width: 601px) {
+    h1 {
+        font-family: 'Alegreya Sans SC', sans-serif;
+        color: white;    
+        text-shadow: 3px 3px orange;
+        letter-spacing: 4px;
+        margin-top: 400px;
+        margin-bottom: 200px;
+        font-size: 150px;
+        align-content: center;
+    }
+  }
+
+
+@media screen and (max-width: 600px) {
+    h1 {
+        vertical-align: top;
+        font-family: 'Alegreya Sans SC', sans-serif;
+        color: white;    
+        text-shadow: 2px 2px orange;
+        letter-spacing: 4px;
+        margin-top: 250px;
+        font-size: 55px;
+        align-content: center;
+    }
+}
+
+
+
+
+/* h2 */
+
+@media screen and (max-width:360px){
+    h2 {
+            vertical-align: top;
+            font-family: 'Alegreya Sans SC', sans-serif;
+            color: white;    
+            text-shadow: 2px 2px orange;
+            letter-spacing: 4px;
+            margin-top: 200px;
+            font-size: 75px;
+            justify-content: center;
+        }  
+    }
+    
+    
+@media screen and (min-width: 601px) {
+    h2 {
+            vertical-align: top;
+            font-family: 'Alegreya Sans SC', sans-serif;
+            color: white;    
+            text-shadow: 2px 2px orange;
+            letter-spacing: 4px;
+            margin-top: 250px;
+            font-size: 100px;
+            align-content: center;
+            padding-left: 10px;
+        }
+      }
+    
+    
+@media screen and (max-width: 600px) {
+    h2 {
+            vertical-align: top;
+            font-family: 'Alegreya Sans SC', sans-serif;
+            color: white;    
+            text-shadow: 2px 2px orange;
+            letter-spacing: 4px;
+            margin-top: 250px;
+            font-size: 55px;
+            align-content: center;
+        }
+    }
+
+
+
+
+    /* CARDS */
+
+
+@media screen and (max-width:360px){
+    .card {
+        font-family: 'Alegreya Sans SC', sans-serif;
+        color: white;    
+        margin-top: 50px;
+        margin-bottom: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 24px;
+        justify-content: center;
+        background-color: rgb(255, 255, 255, 0.2);
+        display: flex;
+        align-content: center;
+    }  
+}
+
+
+@media screen and (min-width: 601px) {
+    .card {
+        font-family: 'Alegreya Sans SC', sans-serif;
+        color: white;    
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 24px;
+        align-content: center;
+        background-color: rgb(255, 255, 255, 0.2);
+        display: flex;
+        justify-content: center;
+    }
+  }
+
+
+@media screen and (max-width: 600px) {
+    .card {
+        font-family: 'Alegreya Sans SC', sans-serif;
+        color: white;    
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 75px;
+        margin-right: 5px;
+        font-size: 24px;
+        align-content: center;
+        background-color: rgb(255, 255, 255, 0.2);
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+
+
+
+/* paragraphs */
+
+
+@media screen and (max-width:360px){
+    p.text-center {
+        font-family: 'Alegreya Sans SC', sans-serif;
+        color: white;
+        font-size: 24px;
+        margin-top: 100px;
+        justify-content: center;
+        align-content: center;
+        padding-left: 55px;
+        padding-right: 55px;
+        text-shadow: 1px 1px grey;
+    }
+}
+
+
+@media screen and (min-width: 601px) {
+    p.text-center {
+        font-family: 'Alegreya Sans SC', sans-serif;
+        color: white;
+        font-size: 32px;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        justify-content: center;
+        align-content: center;
+        padding-left: 100px;
+        padding-right: 100px;
+        text-shadow: 1px 1px grey;
+    }
+  }
+
+
+@media screen and (max-width: 600px) {
+    p.text-center {
+        font-family: 'Alegreya Sans SC', sans-serif;
+        color: white;
+        font-size: 24px;
+        margin-top: 100px;
+        justify-content: center;
+        align-content: center;
+        padding-left: 55px;
+        padding-right: 55px;
+        text-shadow: 1px 1px grey;
+    }
+}
+
+
+.container {
+     display: flex;
+     justify-content: center;
+     align-content: center;
+ }
+ 
+
+ .box {
+     display: flex;
+     justify-content: center;
+     align-content: center;
+ }
+
+ .row {
+    margin-top: 100px;
+ }
