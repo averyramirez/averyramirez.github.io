@@ -195,7 +195,7 @@ body {
         margin-top: 50px;
         margin-bottom: 5px;
         margin-left: 5px;
-        margin-right: 5px;
+        margin-right: 50px;
         font-size: 24px;
         justify-content: center;
         background-color: rgb(255, 255, 255, 0.2);
@@ -306,4 +306,5 @@ body {
 
  .row {
     margin-top: 100px;
+    padding-bottom: 100px;
  }
