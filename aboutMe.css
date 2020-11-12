@@ -89,7 +89,7 @@ body {
 
 
 /* Change navbar styling on small viewports */
-@media (max-width: 991px) {
+@media (max-width: 500x) {
     .navbar {
         background: black;
     }
@@ -100,6 +100,7 @@ body {
     text-shadow: 2px 2px orange;
     letter-spacing: 4px;
     text-decoration: none;
+    font-size: 10px;
     }
 }
 
