@@ -87,7 +87,7 @@ body {
 
 
 /* Change navbar styling on small viewports */
-@media (max-width: 991.98px) {
+@media (max-width: 991px) {
     .navbar {
         background: transparent;
     }
@@ -106,46 +106,38 @@ body {
 
 /* h1 */
 
+h1 {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    vertical-align: top;
+    color: white;
+    text-shadow: 2px 2px orange;
+    letter-spacing: 4px;
+    align-content: center;
+    justify-content: "center";
+}
+
 
 @media screen and (max-width:360px){
     h1 {
-        font-family: 'Alegreya Sans SC', sans-serif;
-        color: white;    
-        text-shadow: 2px 2px orange;
-        letter-spacing: 4px;
         margin-top: 250px;
-        font-size: 55px;
-        justify-content: center;
+        font-size: 45px;
     }  
 }
 
 
 @media screen and (min-width: 601px) {
     h1 {
-        font-family: 'Alegreya Sans SC', sans-serif;
-        color: white;    
-        text-shadow: 3px 3px orange;
-        letter-spacing: 4px;
         margin-top: 400px;
         margin-bottom: 200px;
         font-size: 150px;
-        align-content: center;
-        justify-content: center;
     }
   }
 
 
 @media screen and (max-width: 600px) {
     h1 {
-        vertical-align: top;
-        font-family: 'Alegreya Sans SC', sans-serif;
-        color: white;    
-        text-shadow: 2px 2px orange;
-        letter-spacing: 4px;
         margin-top: 250px;
         font-size: 55px;
-        align-content: center;
-        justify-content: center;
     }
 }
 
@@ -154,30 +146,28 @@ body {
 
 /* h2 */
 
+h2 {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    text-shadow: 2px 2px orange;
+    color: white;
+    letter-spacing: 4px;
+    vertical-align: top;
+    align-content: center;
+    justify-content: center;
+}
+
 @media screen and (max-width:360px){
     h2 {
-            vertical-align: top;
-            font-family: 'Alegreya Sans SC', sans-serif;
-            color: white;    
-            text-shadow: 2px 2px orange;
-            letter-spacing: 4px;
             margin-top: 200px;
             font-size: 75px;
-            justify-content: center;
         }  
     }
     
     
 @media screen and (min-width: 601px) {
     h2 {
-            vertical-align: top;
-            font-family: 'Alegreya Sans SC', sans-serif;
-            color: white;    
-            text-shadow: 2px 2px orange;
-            letter-spacing: 4px;
             margin-top: 250px;
             font-size: 100px;
-            align-content: center;
             padding-left: 10px;
         }
       }
@@ -185,14 +175,8 @@ body {
     
 @media screen and (max-width: 600px) {
     h2 {
-            vertical-align: top;
-            font-family: 'Alegreya Sans SC', sans-serif;
-            color: white;    
-            text-shadow: 2px 2px orange;
-            letter-spacing: 4px;
             margin-top: 250px;
             font-size: 55px;
-            align-content: center;
         }
     }
 
@@ -201,54 +185,43 @@ body {
 
     /* CARDS */
 
+.card {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 24px;
+    color: white;
+    background-color: rgb(255, 255, 255, 0.2);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
 
 @media screen and (max-width:360px){
     .card {
-        font-family: 'Alegreya Sans SC', sans-serif;
-        color: white;    
         margin-top: 50px;
         margin-bottom: 5px;
         margin-left: 40px;
         margin-right: 40px;
-        font-size: 24px;
-        justify-content: center;
-        background-color: rgb(255, 255, 255, 0.2);
-        display: flex;
-        align-content: center;
     }  
 }
 
 
 @media screen and (min-width: 601px) {
     .card {
-        font-family: 'Alegreya Sans SC', sans-serif;
-        color: white;    
         margin-top: 5px;
         margin-bottom: 5px;
         margin-left: 20px;
         margin-right: 20px;
-        font-size: 24px;
-        align-content: center;
-        background-color: rgb(255, 255, 255, 0.2);
-        display: flex;
-        justify-content: center;
     }
   }
 
 
 @media screen and (max-width: 600px) {
     .card {
-        font-family: 'Alegreya Sans SC', sans-serif;
-        color: white;    
         margin-top: 5px;
         margin-bottom: 5px;
         margin-left: 40px;
         margin-right: 40px;
-        font-size: 24px;
-        align-content: center;
-        background-color: rgb(255, 255, 255, 0.2);
-        display: flex;
-        justify-content: center;
     }
 }
 
