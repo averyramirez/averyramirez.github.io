@@ -141,6 +141,7 @@ html {
         font-size: 150px;
         align-content: center;
         justify-content: center;
+        text-align: center;
     }
   }
 
@@ -156,6 +157,7 @@ html {
         font-size: 55px;
         align-content: center;
         justify-content: center;
+        text-align: center;
     }
 }
 
