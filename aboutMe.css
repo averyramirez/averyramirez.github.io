@@ -4,12 +4,9 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    margin: 0;
+    overscroll-behavior: none;
   }
-
-.body-container {
-    height: calc(100% - 100px);
-    overflow: auto;
-}
 
 .background-img {
     transform: translate3d(0,0,0);  
