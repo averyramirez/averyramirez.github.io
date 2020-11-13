@@ -155,8 +155,8 @@ p.text-center {
     margin-bottom: 50px;
     justify-content: center;
     align-content: center;
-    padding-left: 20px;
-    padding-right: 20px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
     text-shadow: 1px 1px grey;
 }
 
@@ -194,44 +194,6 @@ p.text-center {
         padding-right: 150px;
     }
 }
-
-
-
-
-
-
-
-
-    /* CARDS */
-
-
-/* @media screen and (max-width:360px){
-    .card {
-
-    }  
-}
-
-
-@media screen and (min-width: 601px) {
-    .card {
-        margin-top: 5px;
-        margin-bottom: 5px;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-  }
-
-
-@media screen and (max-width: 600px) {
-    .card {
-        margin-top: 5px;
-        margin-bottom: 5px;
-        margin-left: 40px;
-        margin-right: 40px;
-    }
-}
- */
-
 
 
 
