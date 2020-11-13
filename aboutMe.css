@@ -155,8 +155,8 @@ p.text-center {
     margin-bottom: 50px;
     justify-content: center;
     align-content: center;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
     text-shadow: 1px 1px grey;
 
 }
