@@ -12,12 +12,31 @@ body {
     transform: translate3d(0,0,0);  
  } 
 
+ nav {
+     font-size: 24px;
+     display: flex;
+     justify-content: space-between;
+ }
+
+ ul {
+     background-color: black;
+     max-width: 100%;
+     display: flex;
+     justify-content: space-evenly;
+ }
+
+ ul, li {
+     display: inline;
+     margin: 0;
+     padding: 0;
+ }
+
 
 
 
 /* Navbar */
 
-.navbar {
+/* .navbar {
     transition: all 0.4s;
     background-color: black;
 }
@@ -51,15 +70,15 @@ body {
 
 .navbar-toggler .navbar-toggler-right {
     color: white;
-}
+} */
 
 
 /* Change navbar styling on scroll */
-.navbar.active {
+/* .navbar.active {
     background: black;
-    /* box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.5); */
-}
-
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.5);
+} */
+/* 
 .navbar.active, .nav-link {
     font-family: 'Alegreya Sans SC', sans-serif;
     color: white;    
@@ -76,7 +95,7 @@ body {
     letter-spacing: 4px;
     text-decoration: none;
     text-decoration: none;
-}
+} */
 
 /* .navbar.active .navbar-brand {
     font-family: 'Alegreya Sans SC', sans-serif;
@@ -89,28 +108,22 @@ body {
 
 
 /* Change navbar styling on small viewports */
-@media (max-width: 500x) {
-    .navbar {
-        background: black;
-    }
+/* @media (max-width: 500x) {
+    .navbar,
+    .navbar-link,
 
-    .navbar .navbar-brand, .navbar .nav-link {
-    font-family: 'Alegreya Sans SC', sans-serif;
-    color: white;    
-    text-shadow: 2px 2px orange;
-    letter-spacing: 4px;
-    text-decoration: none;
-    font-size: 10px;
-    }
-}
+        font-family: 'Alegreya Sans SC', sans-serif;
+
+} */
 
 
 
 
-/* h1 */
+
 
 h1 {
     font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 45px;
     vertical-align: top;
     color: white;
     text-shadow: 2px 2px orange;
@@ -118,70 +131,58 @@ h1 {
     align-content: center;
     justify-content: "center";
     text-align: center;
+    margin-top: 400px;
+    margin-bottom: 200px;
 }
-
-
-@media screen and (max-width:300px){
-    h1 {
-        margin-top: 250px;
-        font-size: 35px;
-    }  
-}
-
-
-@media screen and (min-width: 601px) {
-    h1 {
-        margin-top: 400px;
-        margin-bottom: 200px;
-        font-size: 150px;
-    }
-  }
-
-
-@media screen and (max-width: 600px) {
-    h1 {
-        margin-top: 250px;
-        font-size: 35px;
-    }
-}
-
-
-
-/* h2 */
 
 h2 {
     font-family: 'Alegreya Sans SC', sans-serif;
-    text-shadow: 2px 2px orange;
-    color: white;
-    letter-spacing: 4px;
+    font-size: 45px;
     vertical-align: top;
+    color: white;    
+    text-shadow: 2px 2px orange;
+    letter-spacing: 4px;
     align-content: center;
     justify-content: center;
+    padding-top: 100px;
 }
 
-@media screen and (max-width:300px){
-    h2 {
-            margin-top: 200px;
-            font-size: 35px;
-        }  
+p.text-center {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color: white;
+    font-size: 24px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    justify-content: center;
+    align-content: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    text-shadow: 1px 1px grey;
+
+}
+
+
+@media (min-width: 800px){
+    h1 {
+        margin-top: 250px;
+        font-size: 100px;
     }
-    
-    
-@media screen and (min-width: 601px) {
+
     h2 {
-            margin-top: 250px;
-            font-size: 100px;
-            padding-left: 10px;
-        }
-      }
-    
-    
-@media screen and (max-width: 600px) {
-    h2 {
-            margin-top: 250px;
-            font-size: 35px;
-        }
+        margin-top: 250px;
+        font-size: 100px;
     }
+
+    p.text-center {
+        font-size: 40px;
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+}
+
+
+
+
 
 
 
@@ -235,50 +236,7 @@ h2 {
 /* paragraphs */
 
 
-@media screen and (max-width:360px){
-    p.text-center {
-        font-family: 'Alegreya Sans SC', sans-serif;
-        color: white;
-        font-size: 24px;
-        margin-top: 100px;
-        justify-content: center;
-        align-content: center;
-        padding-left: 25px;
-        padding-right: 25px;
-        text-shadow: 1px 1px grey;
-    }
-}
 
-
-@media screen and (min-width: 601px) {
-    p.text-center {
-        font-family: 'Alegreya Sans SC', sans-serif;
-        color: white;
-        font-size: 32px;
-        margin-top: 100px;
-        margin-bottom: 50px;
-        justify-content: center;
-        align-content: center;
-        padding-left: 100px;
-        padding-right: 100px;
-        text-shadow: 1px 1px grey;
-    }
-  }
-
-
-@media screen and (max-width: 600px) {
-    p.text-center {
-        font-family: 'Alegreya Sans SC', sans-serif;
-        color: white;
-        font-size: 24px;
-        margin-top: 100px;
-        justify-content: center;
-        align-content: center;
-        padding-left: 25px;
-        padding-right: 25px;
-        text-shadow: 1px 1px grey;
-    }
-}
 
 
 .container {
