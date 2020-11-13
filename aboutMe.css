@@ -5,7 +5,7 @@ body {
     -o-background-size: cover;
     background-size: cover;
     margin: 0;
-    overscroll-behavior: none;
+    overscroll-behavior: contain;
   }
 
 .background-img {
@@ -78,14 +78,14 @@ body {
     text-decoration: none;
 }
 
-.navbar.active .navbar-brand {
+/* .navbar.active .navbar-brand {
     font-family: 'Alegreya Sans SC', sans-serif;
     color: white;    
     text-shadow: 2px 2px orange;
     letter-spacing: 4px;
     text-decoration: none;
-    font-size: 60px;
-}
+    font-size: 40px;
+} */
 
 
 /* Change navbar styling on small viewports */
