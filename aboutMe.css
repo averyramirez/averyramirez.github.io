@@ -158,8 +158,23 @@ p.text-center {
     padding-left: 20px;
     padding-right: 20px;
     text-shadow: 1px 1px grey;
+}
+
+.card {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 24px;
+    color: white;
+    background-color: rgb(255, 255, 255, 0.2);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
 
 }
+
 
 
 @media (min-width: 800px){
@@ -189,23 +204,10 @@ p.text-center {
 
     /* CARDS */
 
-.card {
-    font-family: 'Alegreya Sans SC', sans-serif;
-    font-size: 24px;
-    color: white;
-    background-color: rgb(255, 255, 255, 0.2);
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
 
-
-@media screen and (max-width:360px){
+/* @media screen and (max-width:360px){
     .card {
-        margin-top: 50px;
-        margin-bottom: 5px;
-        margin-left: 40px;
-        margin-right: 10px;
+
     }  
 }
 
@@ -228,12 +230,9 @@ p.text-center {
         margin-right: 40px;
     }
 }
+ */
 
 
-
-
-
-/* paragraphs */
 
 
 
