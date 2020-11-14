@@ -6,7 +6,7 @@ body {
     background-size: cover;
     margin: 0;
     overscroll-behavior: contain;
-  }
+}
 
 
 
@@ -32,8 +32,7 @@ body {
 
 
 .navbar {
-    /* transition: all 0.4s; */
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.5);
     justify-content: space-around;    
     font-family: 'Alegreya Sans SC', sans-serif;
     color: white;    
@@ -118,12 +117,9 @@ p.text-center {
         padding-right: 150px;
     }
 
-    .nav {
-        font-size: 32px;
-        background-color: black;
-    }
-
     .navbar {
-        align-content: right;
+        justify-content: space-around;
+        padding-left: 250px;
+        padding-right: 250px;
     }
 }
