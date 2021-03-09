@@ -97,7 +97,7 @@ p.text-center {
 
 @media (min-width: 900px){
     h1 {
-        margin-top: 300px;
+        /* margin-top: 300px; */
         font-size: 160px;
         text-shadow: 4px 4px orange;
     }
