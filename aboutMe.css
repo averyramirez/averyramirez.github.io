@@ -9,16 +9,6 @@ body {
 }
 
 
-
-/* .container {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-} */
-
-
-
-
 .row {
    margin-top: 100px;
    padding-bottom: 100px;
@@ -30,13 +20,11 @@ h1 {
     font-family: 'Fredoka One', cursive;
     font-size: 42px;
     vertical-align: top;
-    /* text-shadow: 2px 2px rgb(252, 210, 243); */
     letter-spacing: 2px;
     align-content: center;
     justify-content: center;
     text-align: center;
     margin-top: 30px;
-    /* color: rgb(255, 255, 255); */
     background: -webkit-linear-gradient(rgb(255, 255, 255),rgb(177, 105, 159));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -45,7 +33,7 @@ h1 {
 h2 {
     font-family: 'Fredoka One', cursive;
     font-size: 40px;
-    margin-top: 40px;
+    margin-top: 50px;
     background: -webkit-linear-gradient(rgb(255, 255, 255),rgb(177, 105, 159));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -110,7 +98,7 @@ p.text-center {
     margin-bottom: 50px;
     font-family: 'Catamaran', sans-serif;
     color: white;
-    font-size: 20px;
+    font-size: 24px;
 
 }
 
@@ -125,9 +113,6 @@ p.text-center {
     -webkit-text-fill-color: transparent;
 }
 
-/* img {
-    width: 500px;
-} */
 
 .fa {
     font-size: 80px;
