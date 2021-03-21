@@ -109,7 +109,7 @@ p.text-center {
     margin-bottom: 50px;
     font-family: 'Catamaran', sans-serif;
     color: white;
-    font-size: 30px;
+    font-size: 26px;
 
 }
 
@@ -118,7 +118,7 @@ p.text-center {
 }
 
 #articles a:hover {
-    font-size: 32px;
+    font-size: 26px;
     background: -webkit-linear-gradient(rgb(255, 255, 255),rgb(177, 105, 159));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -152,6 +152,10 @@ p.text-center {
 
     .contact {
         font-size: 80px;
+    }
+
+    .articles {
+        font-size: 36px;
     }
     
 
