@@ -10,8 +10,7 @@ body {
 
 
 .row {
-   /* margin-top: 100px; */
-   padding-bottom: 100px;
+   margin-bottom: 50px;
    justify-content: center;
 }
 
