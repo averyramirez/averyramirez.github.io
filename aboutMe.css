@@ -28,10 +28,10 @@ body {
 
 h1 {
     font-family: 'Fredoka One', cursive;
-    font-size: 45px;
+    font-size: 42px;
     vertical-align: top;
     /* text-shadow: 2px 2px rgb(252, 210, 243); */
-    letter-spacing: 5px;
+    letter-spacing: 2px;
     align-content: center;
     justify-content: center;
     text-align: center;
