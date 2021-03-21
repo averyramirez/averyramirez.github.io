@@ -44,7 +44,7 @@ h1 {
 
 h2 {
     font-family: 'Fredoka One', cursive;
-    font-size: 50px;
+    font-size: 40px;
     background: -webkit-linear-gradient(rgb(255, 255, 255),rgb(177, 105, 159));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -105,6 +105,18 @@ p.text-center {
     border-radius: 15px 50px 30px;
 }
 
+.articles {
+    margin-bottom: 25px;
+    font-family: 'Catamaran', sans-serif;
+    color: white;
+    font-size: 30px;
+
+}
+
+#articles a:link, a:visited, a:hover, a:active {
+    color: white;
+}
+
 /* img {
     width: 500px;
 } */
@@ -120,7 +132,6 @@ p.text-center {
 
 @media (min-width: 900px){
     h1 {
-        /* margin-top: 300px; */
         font-size: 120px;
     }
 
@@ -131,12 +142,6 @@ p.text-center {
     h3 {
         font-size: 50px;
     }
-
-    /* p.text-center {
-        font-size: 40px;
-        padding-left: 150px;
-        padding-right: 150px;
-    } */
 
     .contact {
         font-size: 80px;
