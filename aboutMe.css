@@ -125,6 +125,7 @@ p.text-center {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 20px;
+    margin-top: 40px;
 }
 
 .responsive {
