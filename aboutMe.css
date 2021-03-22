@@ -9,6 +9,13 @@ body {
     background-attachment: fixed;
     overscroll-behavior: contain;
     margin-bottom: 40px;
+    height: 100%;
+    overflow: auto;
+}
+
+html {
+    overflow: hidden;
+    height: 100%;
 }
 
 
