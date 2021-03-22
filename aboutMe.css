@@ -61,10 +61,12 @@ h4 {
 }
 
 h5 {
-    color: white;
     font-size: 26px;
     margin-top: 25px;
-    font-family: 'Catamaran', sans-serif;
+    font-family: 'Fredoka One', cursive;
+    background: -webkit-linear-gradient(rgb(255, 255, 255),rgb(177, 105, 159));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 
 }
 
