@@ -1,5 +1,5 @@
 body { 
-    background: url("https://images.unsplash.com/photo-1565932887479-b18108f07ffd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80") no-repeat center top fixed; 
+    background: url("backgroundMobile.png") no-repeat center top fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -160,6 +160,17 @@ p.text-center {
 
     .articles {
         font-size: 36px;
+    }
+
+    body {
+        background: url("backgroundDesktop.jpg") no-repeat center top fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        margin: 0;
+        overscroll-behavior: contain;
+        margin-bottom: 40px;
     }
     
 
