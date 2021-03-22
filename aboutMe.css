@@ -60,27 +60,20 @@ h4 {
     margin-bottom: 50px;
 }
 
+h5 {
+    color: white;
+    font-size: 26px;
+    margin-top: 25px;
+    font-family: 'Catamaran', sans-serif;
+
+}
+
 
 
 p.text-center {
     font-size: 22px;
 }
 
-
-.card {
-    font-family: 'Catamaran', sans-serif;
-    font-size: 20px;
-    background-color: rgb(255, 255, 255, 0.1);
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    margin-top: 10px;
-    margin-bottom: 5px;
-    margin-left: 10px;
-    margin-right: 10px;
-    border-radius: 20px;
-    color: white;
-}
 
 .contact {
     font-size: 80px;
