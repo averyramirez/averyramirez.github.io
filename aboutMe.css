@@ -1,6 +1,4 @@
 body { 
-    /* background: rgb(57,28,103);
-    background: linear-gradient(180deg, rgba(57,28,103,1) 0%, rgba(68,88,199,1) 50%, rgba(87,189,213,0.958420868347339) 100%);  */
     background-image: url("backgroundDesktop.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -9,8 +7,7 @@ body {
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    /* overscroll-behavior: contain; */
-    overscroll-behavior-y: none;
+    overscroll-behavior: contain;
     margin-bottom: 40px;
 }
 
