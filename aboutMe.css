@@ -10,8 +10,8 @@ body {
 
 
 .row {
-   margin-bottom: 50px;
-   justify-content: center;
+    /* margin-bottom: 50px; */
+    justify-content: center;
 }
 
 
@@ -92,6 +92,7 @@ p.text-center {
     margin-left: 5px;
     margin-right: 5px;
     margin-top: 10px;
+    margin-bottom: 10px;
     border-radius: 15px 50px 30px;
 }
 
@@ -129,6 +130,7 @@ p.text-center {
     height: auto;
     margin-top: 50px;
     margin-bottom: 50px;
+    border-radius: 25px;
 }
 
 
