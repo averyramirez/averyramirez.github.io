@@ -151,13 +151,15 @@ p.text-center {
 
 @media (min-width: 900px){
     h1 {
-        font-size: 140px;
+        font-size: 180px;
         margin-top: 100px;
+        letter-spacing: 8px;
     }
 
     h2 {
-        font-size: 80px;
+        font-size: 100px;
         margin-top: 80px;
+        letter-spacing: 8px;
     }
 
     h3 {
