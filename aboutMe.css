@@ -72,10 +72,10 @@ h4 {
 }
 
 h5 {
-    font-size: 28px;
+    font-size: 26px;
     margin-top: 25px;
     font-family: 'Staatliches', cursive;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     background: -webkit-linear-gradient(rgb(255, 255, 255),rgb(250, 191, 136));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
