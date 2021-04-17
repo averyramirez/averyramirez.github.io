@@ -1,5 +1,5 @@
 body { 
-    background-image: url("backgroundDesktop.jpg");
+    background-image: url("backgroundMobile.png");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -176,7 +176,7 @@ p.text-center {
     }
 
     body {
-        background: url("backgroundDesktop.jpg") no-repeat center top fixed; 
+        background: url("backgroundDesktop.png") no-repeat center bottom fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
