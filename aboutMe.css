@@ -26,20 +26,19 @@ html {
 
 
 h1 {
-    font-family: 'Wire One', sans-serif;
+    font-family: 'Teko', sans-serif;
     font-size: 75px;
     vertical-align: top;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
     align-content: center;
     justify-content: center;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 60px;
     color: white;
-    text-shadow: 2px 2px rgb(53, 8, 8);
-    /* background: -webkit-linear-gradient(rgb(0, 0, 0),rgb(114, 18, 18));
+    background: -webkit-linear-gradient(rgb(0, 0, 0),rgb(114, 18, 18));
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; */
+    -webkit-text-fill-color: transparent;
 }
 
 h2 {
@@ -55,7 +54,7 @@ h2 {
 }
 
 h3 {
-    font-family: 'Wire One', sans-serif;
+    font-family: 'Teko', sans-serif;
     font-size: 50px;
     letter-spacing: 3px;
     margin-top: 10px;
@@ -136,12 +135,11 @@ p.text-center {
 
 .fa {
     font-size: 80px;
-    /* background: -webkit-linear-gradient(rgb(0, 0, 0),rgb(114, 18, 18));
+    background: -webkit-linear-gradient(rgb(0, 0, 0),rgb(114, 18, 18));
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; */
+    -webkit-text-fill-color: transparent;
     margin-bottom: 20px;
     margin-top: 40px;
-    color: rgb(85, 14, 14);
 }
 
 .responsive {
