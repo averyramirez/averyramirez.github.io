@@ -132,6 +132,10 @@ p.text-center {
     -webkit-text-fill-color: transparent;
 }
 
+a:active {
+    color: white;
+}
+
 
 .fa {
     font-size: 80px;
@@ -170,7 +174,7 @@ p.text-center {
     }
 
     h4 {
-        font-size: 40px;
+        font-size: 36px;
     }
 
     h5 {
