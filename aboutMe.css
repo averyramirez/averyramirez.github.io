@@ -46,7 +46,7 @@ h2 {
     letter-spacing: 5px;
     margin-top: 50px;
     margin-bottom: 50px;
-    background: -webkit-linear-gradient(rgb(255, 255, 255),rgb(250, 191, 136));
+    background: -webkit-linear-gradient(rgb(0, 0, 0),rgb(114, 18, 18));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -56,7 +56,7 @@ h3 {
     font-size: 30px;
     letter-spacing: 3px;
     margin-top: 10px;
-    background: -webkit-linear-gradient(rgb(255, 255, 255),rgb(250, 191, 136));
+    background: -webkit-linear-gradient(rgb(0, 0, 0),rgb(114, 18, 18));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -76,7 +76,7 @@ h5 {
     margin-top: 25px;
     font-family: 'Staatliches', cursive;
     letter-spacing: 2px;
-    background: -webkit-linear-gradient(rgb(255, 255, 255),rgb(250, 191, 136));
+    background: -webkit-linear-gradient(rgb(0, 0, 0),rgb(114, 18, 18));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
@@ -123,7 +123,7 @@ p.text-center {
 
 #articles a:hover {
     font-size: 20px;
-    background: -webkit-linear-gradient(rgb(255, 255, 255),rgb(252, 201, 153));
+    background: -webkit-linear-gradient(rgb(0, 0, 0),rgb(114, 18, 18));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -131,7 +131,7 @@ p.text-center {
 
 .fa {
     font-size: 80px;
-    background: -webkit-linear-gradient(rgb(255, 255, 255),rgb(252, 201, 153));
+    background: -webkit-linear-gradient(rgb(0, 0, 0),rgb(114, 18, 18));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 20px;
