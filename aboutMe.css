@@ -9,7 +9,7 @@ body {
     background-attachment: fixed;
     overscroll-behavior: contain;
     margin-bottom: 40px;
-    padding-bottom: 20px;
+    padding-bottom: 60px;
     height: 100%;
     overflow: auto;
 }
