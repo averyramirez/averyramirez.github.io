@@ -35,7 +35,7 @@ h1 {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 60px;
-    background: -webkit-linear-gradient(rgb(255, 255, 255),rgb(250, 191, 136));
+    background: -webkit-linear-gradient(rgb(0, 0, 0),rgb(114, 18, 18));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -151,8 +151,8 @@ p.text-center {
 
 @media (min-width: 900px){
     h1 {
-        font-size: 180px;
-        margin-top: 100px;
+        font-size: 120px;
+        margin-top: 80px;
         letter-spacing: 8px;
     }
 
@@ -184,7 +184,7 @@ p.text-center {
     }
 
     body {
-        background: url("newBackground.jpg") no-repeat center bottom fixed; 
+        background: url("backgroundDesktop.jpg") no-repeat center top fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
