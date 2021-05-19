@@ -26,14 +26,14 @@ html {
 
 
 h1 {
-    font-family: 'Staatliches', cursive;
-    font-size: 50px;
+    font-family: 'Wire One', sans-serif;
+    font-size: 80px;
     vertical-align: top;
     letter-spacing: 5px;
     align-content: center;
     justify-content: center;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 40px;
     margin-bottom: 60px;
     background: -webkit-linear-gradient(rgb(0, 0, 0),rgb(114, 18, 18));
     -webkit-background-clip: text;
@@ -151,8 +151,8 @@ p.text-center {
 
 @media (min-width: 900px){
     h1 {
-        font-size: 120px;
-        margin-top: 80px;
+        font-size: 150px;
+        margin-top: 40px;
         letter-spacing: 8px;
     }
 
