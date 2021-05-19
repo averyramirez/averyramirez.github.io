@@ -33,32 +33,36 @@ h1 {
     align-content: center;
     justify-content: center;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 60px;
-    background: -webkit-linear-gradient(rgb(0, 0, 0),rgb(114, 18, 18));
+    color: white;
+    text-shadow: 2px 2px rgb(53, 8, 8);
+    /* background: -webkit-linear-gradient(rgb(0, 0, 0),rgb(114, 18, 18));
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
 }
 
 h2 {
-    font-family: 'Staatliches', cursive;
-    font-size: 40px;
+    font-family: 'Wire One', sans-serif;
+    font-size: 50px;
     letter-spacing: 5px;
     margin-top: 50px;
     margin-bottom: 50px;
-    background: -webkit-linear-gradient(rgb(0, 0, 0),rgb(114, 18, 18));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: white;
+    /* background: -webkit-linear-gradient(rgb(255, 255, 255),rgb(114, 18, 18)); */
+    /* -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
 }
 
 h3 {
-    font-family: 'Staatliches', cursive;
-    font-size: 30px;
+    font-family: 'Wire One', sans-serif;
+    font-size: 50px;
     letter-spacing: 3px;
     margin-top: 10px;
-    background: -webkit-linear-gradient(rgb(0, 0, 0),rgb(114, 18, 18));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: white;
+    /* background: -webkit-linear-gradient(rgb(255, 255, 255),rgb(114, 18, 18)); */
+    /* -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
 }
 
 h4 {
@@ -72,13 +76,14 @@ h4 {
 }
 
 h5 {
-    font-size: 26px;
+    font-size: 40px;
     margin-top: 25px;
-    font-family: 'Staatliches', cursive;
+    font-family: 'Wire One', sans-serif;
     letter-spacing: 2px;
-    background: -webkit-linear-gradient(rgb(0, 0, 0),rgb(114, 18, 18));
+    color: white;
+    /* background: -webkit-linear-gradient(rgb(0, 0, 0),rgb(114, 18, 18));
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
 
 }
 
@@ -131,11 +136,12 @@ p.text-center {
 
 .fa {
     font-size: 80px;
-    background: -webkit-linear-gradient(rgb(0, 0, 0),rgb(114, 18, 18));
+    /* background: -webkit-linear-gradient(rgb(0, 0, 0),rgb(114, 18, 18));
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
     margin-bottom: 20px;
     margin-top: 40px;
+    color: rgb(85, 14, 14);
 }
 
 .responsive {
