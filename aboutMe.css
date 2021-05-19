@@ -42,7 +42,7 @@ h1 {
 }
 
 h2 {
-    font-family: 'Wire One', sans-serif;
+    font-family: 'Teko', sans-serif;
     font-size: 50px;
     letter-spacing: 5px;
     margin-top: 50px;
@@ -77,7 +77,7 @@ h4 {
 h5 {
     font-size: 40px;
     margin-top: 25px;
-    font-family: 'Wire One', sans-serif;
+    font-family: 'Teko', sans-serif;
     letter-spacing: 2px;
     color: white;
     /* background: -webkit-linear-gradient(rgb(0, 0, 0),rgb(114, 18, 18));
@@ -135,9 +135,7 @@ p.text-center {
 
 .fa {
     font-size: 80px;
-    background: -webkit-linear-gradient(rgb(0, 0, 0),rgb(114, 18, 18));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: white;
     margin-bottom: 20px;
     margin-top: 40px;
 }
@@ -184,7 +182,7 @@ p.text-center {
     }
 
     .articles {
-        font-size: 36px;
+        font-size: 32px;
     }
 
     body {
