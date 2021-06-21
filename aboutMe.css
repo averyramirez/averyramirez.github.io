@@ -138,13 +138,6 @@ a:active {
 }
 
 
-.fa {
-    font-size: 40px;
-    color: white;
-    margin-bottom: 20px;
-    margin-top: 40px;
-}
-
 .responsive {
     width: 100%;
     max-width: 550px;
@@ -154,6 +147,16 @@ a:active {
     border-radius: 25px;
 }
 
+.nav-item {
+    font-size: 40px;
+}
+
+.navbar-brand {
+    margin-left: 10px;
+}
+
+
+
 
 
 
@@ -161,7 +164,7 @@ a:active {
 @media (min-width: 900px){
     h1 {
         font-size: 150px;
-        margin-top: 40px;
+        margin-top: 15px;
         letter-spacing: 8px;
         margin-bottom: 20px;
     }
@@ -196,10 +199,7 @@ a:active {
     }
 
     .fa {
-        font-size: 80px;
         color: white;
-        margin-bottom: 10px;
-        margin-top: 20px;
     }
     
 
@@ -221,9 +221,20 @@ a:active {
     }
 
     .nav-item {
-        font-size: 40px;
+        font-size: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .navbar-brand {
         margin-left: 20px;
-        margin-right: 20px;
+        font-size: 40px;
+        font-family: 'Teko', sans-serif;
+        letter-spacing: 5px;
+    }
+
+    .navbar-nav {
+        margin-left: auto;
     }
 
 
