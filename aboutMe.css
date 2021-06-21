@@ -69,7 +69,7 @@ h4 {
 }
 
 h5 {
-    font-size: 40px;
+    font-size: 30px;
     margin-top: 25px;
     font-family: 'Teko', sans-serif;
     letter-spacing: 2px;
@@ -103,11 +103,11 @@ p.text-center {
 
 }
 
-/* #articles a:link, a:visited, a:active {
+#articles a:link, a:visited, a:active {
     color: white;
-} */
+}
 
-/* #articles a:hover {
+#articles a:hover {
     font-size: 20px;
     background: -webkit-linear-gradient(rgb(0, 0, 0),rgb(114, 18, 18));
     -webkit-background-clip: text;
@@ -116,7 +116,7 @@ p.text-center {
 
 a:active {
     color: black;
-} */
+}
 
 
 .nav-item {
@@ -128,22 +128,29 @@ a:active {
 }
 
 .carousel-caption {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.3);
     color: black;
     font-weight: bold;
+    font-size: 14px;
+    text-shadow: 1px 1px grey;
 }
 
 .carouselLink {
     color: black;
 }
-/* 
+
 .carouselContainer {
     margin-top: 10px;
     margin-bottom: 10px;
-} */
+}
 
 .container {
     justify-content: center;
+}
+
+.carouselText {
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 
@@ -227,6 +234,18 @@ a:active {
     .carouselContainer {
         justify-content: center;
     }
+
+    .carousel-caption {
+        font-size: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .carouselText {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
 
     
 
