@@ -73,7 +73,7 @@ h5 {
     margin-top: 25px;
     font-family: 'Teko', sans-serif;
     letter-spacing: 2px;
-    color: white;
+    color: black;
 }
 
 
@@ -81,7 +81,7 @@ h5 {
 p.text-center {
     font-size: 22px;
     margin-bottom: 40px;
-    color: white;
+    color: black;
     font-family: 'Catamaran', sans-serif;
 }
 
@@ -106,9 +106,9 @@ p.text-center {
 
 }
 
-#articles a:link, a:visited, a:active {
+/* #articles a:link, a:visited, a:active {
     color: white;
-}
+} */
 
 #articles a:hover {
     font-size: 20px;
@@ -136,6 +136,14 @@ a:active {
     font-weight: bold;
 }
 
+.carouselLink {
+    color: black;
+}
+
+.carouselContainer {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
 .container {
     justify-content: center;
@@ -220,7 +228,6 @@ a:active {
     }
 
     .carouselContainer {
-        width: 70%;
         justify-content: center;
     }
 
