@@ -43,7 +43,7 @@ h1 {
 
 h2 {
     font-family: 'Teko', sans-serif;
-    font-size: 50px;
+    font-size: 40px;
     letter-spacing: 5px;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -52,7 +52,7 @@ h2 {
 
 h3 {
     font-family: 'Teko', sans-serif;
-    font-size: 50px;
+    font-size: 40px;
     letter-spacing: 3px;
     margin-top: 10px;
     color: white;
@@ -89,9 +89,6 @@ p.text-center {
 .col-sm {
     justify-content: center;
     align-content: center;
-    background-color: rgb(255, 255, 255, 0.1);
-    margin-left: 5px;
-    margin-right: 5px;
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 5px 5px 5px;
@@ -110,7 +107,7 @@ p.text-center {
     color: white;
 } */
 
-#articles a:hover {
+/* #articles a:hover {
     font-size: 20px;
     background: -webkit-linear-gradient(rgb(0, 0, 0),rgb(114, 18, 18));
     -webkit-background-clip: text;
@@ -119,7 +116,7 @@ p.text-center {
 
 a:active {
     color: black;
-}
+} */
 
 
 .nav-item {
@@ -139,11 +136,11 @@ a:active {
 .carouselLink {
     color: black;
 }
-
+/* 
 .carouselContainer {
     margin-top: 10px;
     margin-bottom: 10px;
-}
+} */
 
 .container {
     justify-content: center;
