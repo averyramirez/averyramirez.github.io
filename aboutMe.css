@@ -69,7 +69,7 @@ h4 {
 }
 
 h5 {
-    font-size: 30px;
+    font-size: 26px;
     margin-top: 25px;
     font-family: 'Teko', sans-serif;
     letter-spacing: 2px;
@@ -151,6 +151,7 @@ a:active {
 .carouselText {
     margin-left: 5px;
     margin-right: 5px;
+    font-size: 12px;
 }
 
 
@@ -232,7 +233,8 @@ a:active {
     }
 
     .carouselContainer {
-        justify-content: center;
+        width: 800px;
+        margin-left: 550px;
     }
 
     .carousel-caption {
@@ -244,9 +246,11 @@ a:active {
     .carouselText {
         margin-left: 50px;
         margin-right: 50px;
+        font-size: 20px;
     }
-    
 
     
+
+
 
 }
