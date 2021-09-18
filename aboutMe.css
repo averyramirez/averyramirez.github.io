@@ -23,6 +23,7 @@ a:hover {
     text-decoration: none;
     text-shadow: 1px 1px rgb(232,149,32);
     text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .nav-item {
