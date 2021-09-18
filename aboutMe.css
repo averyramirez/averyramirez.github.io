@@ -1,12 +1,4 @@
 body { 
-    /* background-image: url("https://images.unsplash.com/photo-1572855329011-cb5ec6642df8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    margin: 0;
-    background-repeat: no-repeat;
-    background-attachment: fixed; */
     overscroll-behavior: contain;
     height: 100%;
     overflow: auto;
@@ -34,12 +26,6 @@ a:hover {
 
 .nav-item {
     font-size: 40px;
-}
-
-.navbar-brand {
-    margin-left: 10px;
-    font-size: 30px;
-    font-family: 'Teko', sans-serif;
 }
 
 .container {
@@ -127,13 +113,6 @@ a:hover {
         margin-right: 10px;
     }
 
-    .navbar-brand {
-        margin-left: 490px;
-        font-size: 34px;
-        font-family: 'Teko', sans-serif;
-        letter-spacing: 5px;
-        font-weight: bold;
-    }
 
     .navbar-nav {
         margin-left: auto;
