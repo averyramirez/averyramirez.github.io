@@ -59,6 +59,7 @@ a:hover {
 
 .me {
     width: 250px;
+    height: 250px;
     justify-content: center;
     border-radius: 1000px;
     margin-bottom: 30px;
