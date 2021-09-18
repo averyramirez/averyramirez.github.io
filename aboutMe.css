@@ -1,17 +1,16 @@
 body { 
-    background-image: url("backgroundMobile.jpg");
+    /* background-image: url("https://images.unsplash.com/photo-1572855329011-cb5ec6642df8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     margin: 0;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed; */
     overscroll-behavior: contain;
-    margin-bottom: 40px;
-    padding-bottom: 60px;
     height: 100%;
     overflow: auto;
+    background-color: rgb(14, 20, 27);
 }
 
 html {
@@ -19,96 +18,19 @@ html {
     height: 100%;
 }
 
-
-.row {
-    justify-content: center;
-}
-
-
-h1 {
-    font-family: 'Teko', sans-serif;
-    font-size: 75px;
-    vertical-align: top;
-    letter-spacing: 2px;
-    align-content: center;
-    justify-content: center;
-    text-align: center;
-    margin-top: 17px;
-    margin-bottom: 60px;
-    color: white;
-    background: -webkit-linear-gradient(rgb(0, 0, 0),rgb(114, 18, 18));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-h2 {
-    font-family: 'Teko', sans-serif;
-    font-size: 40px;
-    letter-spacing: 5px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    color: white;
-}
-
-h3 {
-    font-family: 'Teko', sans-serif;
-    font-size: 40px;
-    letter-spacing: 3px;
-    margin-top: 10px;
-    color: white;
-}
-
-h4 {
-    font-size: 30px;
-    margin-top: 10px;
-    color: white;
-    font-family: 'Catamaran', sans-serif;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 50px;
-}
-
-h5 {
-    font-size: 20px;
-    margin-top: 25px;
-    font-family: 'Teko', sans-serif;
-    letter-spacing: 2px;
-    color: black;
-}
-
-
-
-p.text-center {
-    font-size: 22px;
-    margin-bottom: 40px;
-    color: white;
-    font-family: 'Catamaran', sans-serif;
-}
-
-
-.articles {
-    margin-bottom: 50px;
-    font-family: 'Catamaran', sans-serif;
-    color: white;
-    font-size: 24px;
-
-}
-
-#articles a:link, a:visited, a:active {
-    color: white;
-}
-
-#articles a:hover {
-    font-size: 20px;
-    background: -webkit-linear-gradient(rgb(0, 0, 0),rgb(114, 18, 18));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
 a:active {
-    color: black;
+    color: white !important;
 }
 
+a {
+    color: white !important;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    text-shadow: 1px 1px rgb(232,149,32);
+}
 
 .nav-item {
     font-size: 40px;
@@ -116,124 +38,138 @@ a:active {
 
 .navbar-brand {
     margin-left: 10px;
-}
-
-.carousel-caption {
-    background-color: rgba(255, 255, 255, 0.3);
-    color: black;
-    font-weight: bold;
-    text-shadow: 1px 1px grey;
-}
-
-.carouselLink {
-    color: black;
-}
-
-.carouselContainer {
-    margin-top: 10px;
-    margin-bottom: 50px;
-    margin-left: 10px;
-    margin-right: 10px;
+    font-size: 30px;
+    font-family: 'Teko', sans-serif;
 }
 
 .container {
     justify-content: center;
+    display: flex;
 }
 
-.carouselText {
-    margin-left: 5px;
-    margin-right: 5px;
-    font-size: 10px;
+.header {
+    margin-top: 20px;
 }
 
+.photo {
+    justify-content: center;
+    display: flex;
+    color: white;
+}
+
+.me {
+    width: 250px;
+    justify-content: center;
+    border-radius: 1000px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+
+.aboutHeader {
+    font-size: 40px;
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 5px;
+    color: rgb(232,149,32);
+    text-shadow: 1px 1px white;
+}
+
+.aboutMe {
+    text-align: justify;
+    text-justify: inter-word;
+    display: flex;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.portfolio {
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-size: 40px;
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 7px;
+    color: rgb(232,149,32);
+    text-shadow: 1px 1px white;
+}
+
+.card {
+    background: transparent;
+    display: flex;
+    justify-content: center;
+}
+
+.card-img-top {
+    border-radius: 10px 10px;
+}
+
+.card-title {
+    font-size: 26px;
+    font-family: 'Teko', sans-serif;
+    justify-content: center;
+    letter-spacing: 1px;
+}
 
 
 
 @media (min-width: 900px){
-    h1 {
-        font-size: 150px;
-        margin-top: 15px;
-        letter-spacing: 8px;
-        margin-bottom: 20px;
-    }
-
-    h2 {
-        font-size: 60px;
-        margin-top: 80px;
-        letter-spacing: 8px;
-    }
-
-    h3 {
-        font-size: 50px;
-        margin-top: 50px;
-    }
-
-    h4 {
-        font-size: 26px;
-        margin-bottom: 60px;
-        letter-spacing: 0.4px;
-    }
-
-    h5 {
-        font-size: 40px;
-    }
-
-    .contact {
-        font-size: 100px;
-    }
-
-    .articles {
-        font-size: 24px;
-    }
 
     .fa {
         color: white;
     }
     
-
-    body {
-        background: url("backgroundDesktop.jpg") no-repeat center top fixed; 
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        margin: 0;
-        overscroll-behavior: contain;
-        margin-bottom: 40px;
-        padding-bottom: 100px;
-    }
-
-
     .nav-item {
-        font-size: 50px;
+        font-size: 40px;
         margin-left: 10px;
         margin-right: 10px;
     }
 
     .navbar-brand {
-        margin-left: 20px;
-        font-size: 40px;
+        margin-left: 490px;
+        font-size: 34px;
         font-family: 'Teko', sans-serif;
         letter-spacing: 5px;
+        font-weight: bold;
     }
 
     .navbar-nav {
         margin-left: auto;
+        margin-right: 490px;
     }
 
-    .carousel-caption {
-        font-size: 20px;
-        margin-left: 10px;
-        margin-right: 10px;
+    .me {
+        width: 250px;
+        border-radius: 1000px;
+        margin-top: 40px;
+    }
+    
+    .aboutHeader {
+        font-family: 'Teko', sans-serif;
+        margin-top: 40px;
+        font-size: 35px;
+        letter-spacing: 5px;
     }
 
-    .carouselText {
-        margin-left: 50px;
-        margin-right: 50px;
+    .aboutMe {
+        display: flex;
+        color: white;
         font-size: 16px;
+        margin-left: 40px;
+        margin-right: 40px;
+        letter-spacing: 1px;
+        text-shadow: 1px 1px grey;
+    }
+
+    .aboutMe .space-between {  
+        justify-content: space-between;
     }
     
 
-    
+    .card {
+        margin-bottom: 20px;
+    }
+
+
 
 }
