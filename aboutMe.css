@@ -143,6 +143,7 @@ a:hover {
         margin-right: 30px;
         letter-spacing: 1px;
         text-shadow: 1px 1px grey;
+        text-align-last: justify;
     }
 
     .aboutMe .space-between {  
