@@ -1,0 +1,152 @@
+body {
+  overscroll-behavior: contain;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(14, 20, 27);
+}
+
+html {
+  overflow: hidden;
+  height: 100%;
+}
+
+a:active {
+  color: white !important;
+}
+
+a {
+  color: white !important;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  text-shadow: 1px 1px rgb(232, 149, 32);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.nav-item {
+  font-size: 40px;
+}
+
+.container {
+  justify-content: center;
+  display: flex;
+}
+
+.header {
+  margin-top: 20px;
+}
+
+.photo {
+  justify-content: center;
+  display: flex;
+  color: white;
+}
+
+.me {
+  width: 250px;
+  height: 250px;
+  justify-content: center;
+  border-radius: 1000px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.aboutHeader {
+  font-size: 40px;
+  font-family: "Teko", sans-serif;
+  letter-spacing: 5px;
+  color: rgb(232, 149, 32);
+  text-shadow: 1px 1px white;
+}
+
+.aboutMe {
+  text-align: justify;
+  text-justify: inter-word;
+  text-align-last: justify !important;
+  display: flex;
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.portfolio {
+  margin-bottom: 20px;
+  margin-top: 30px;
+  font-size: 40px;
+  font-family: "Teko", sans-serif;
+  letter-spacing: 7px;
+  color: rgb(232, 149, 32);
+  text-shadow: 1px 1px white;
+}
+
+.card {
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  margin-left: 30px;
+}
+
+.card-img-top {
+  border-radius: 10px 10px;
+}
+
+.card-title {
+  font-size: 26px;
+  font-family: "Teko", sans-serif;
+  justify-content: center;
+  letter-spacing: 1px;
+}
+
+@media (min-width: 900px) {
+  .fa {
+    color: white;
+  }
+
+  .nav-item {
+    font-size: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 490px;
+  }
+
+  .me {
+    width: 250px;
+    border-radius: 1000px;
+    margin-top: 25px;
+  }
+
+  .aboutHeader {
+    font-family: "Teko", sans-serif;
+    margin-top: 40px;
+    font-size: 38px;
+    letter-spacing: 5px;
+  }
+
+  .aboutMe {
+    display: flex;
+    color: white;
+    font-size: 16px;
+    margin-left: 30px;
+    margin-right: 30px;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px grey;
+    text-align-last: justify;
+  }
+
+  .aboutMe .space-between {
+    justify-content: space-between;
+  }
+
+  .card {
+    margin-bottom: 20px;
+    margin-left: 0px;
+  }
+}
