@@ -1,0 +1,316 @@
+body {
+  background-attachment: fixed;
+  background-image: url(images/peakpx.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.main {
+  margin-left: 0;
+  margin-top: 15px;
+  width: 100%;
+}
+
+#left {
+  /* background-color: white; */
+}
+
+#right {
+  /* background-color: white; */
+}
+
+.profile {
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 0px black;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+#name {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.self {
+  border-radius: 50%;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  width: 125px;
+}
+
+.details {
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.music {
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 0px black;
+  height: 75px;
+  margin-left: 5px;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+
+#musicPlayer {
+  margin-top: 10px;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: rgba(255, 255, 255, 0.01);
+}
+
+.contact {
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 0px black;
+  height: 125px;
+  margin-left: 5px;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+
+.onlineNow {
+  width: 60%;
+}
+
+.buttons {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#colLeft {
+  margin-right: 5px;
+}
+
+#contact {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+#contactButton {
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.skills {
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 0px black;
+  height: auto;
+  margin-left: 5px;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+
+.skills li {
+  font-size: 14px;
+}
+
+#skills {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.education {
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 0px black;
+  height: auto;
+  margin-left: 5px;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+
+.educationTitle {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.education li {
+  font-size: 14px;
+}
+
+#education {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.schoolList li {
+  margin-right: 20px;
+}
+
+.projects {
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 0px black;
+  height: auto;
+  margin-left: 5px;
+  margin-right: 10px;
+  margin-top: 15px;
+  padding-bottom: 10px;
+}
+
+#projects {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.projectSquares {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#projectSquare {
+  height: 50px;
+  margin: 5px;
+  width: 50px;
+}
+
+#projectImage {
+  border-radius: 10px;
+  padding: 5px;
+  width: 100%;
+}
+
+#projectLink {
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.about {
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 0px black;
+  height: 150px;
+  margin-left: 5px;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+
+#about {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.experience {
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 0px black;
+  height: auto;
+  margin-left: 5px;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+
+#experience {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.experienceBox {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.jobList {
+  margin-left: 10px;
+}
+
+.jobList li {
+  margin-right: 20px;
+  font-size: 14px;
+}
+
+.accordion,
+.accordion-item,
+.accordion-body,
+.accordion-collapse,
+.accordion-button {
+  background-color: rgba(255, 255, 255, 0.01);
+}
+
+.accordion-button {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+footer {
+  margin-top: 20px;
+}
+
+@media (min-width: 575px) {
+  .main {
+    margin-left: 20%;
+    margin-top: 20px;
+    width: 60%;
+  }
+
+  .profile {
+    margin-left: 0;
+    margin-right: 25px;
+  }
+
+  .self {
+    margin-left: 10px;
+    width: 150px;
+  }
+
+  .music {
+    margin-left: 0;
+    margin-right: 25px;
+    margin-top: 20px;
+  }
+
+  .contact {
+    margin-left: 0;
+    margin-right: 25px;
+    margin-top: 20px;
+  }
+
+  .skills {
+    margin-left: 0;
+    margin-right: 25px;
+    margin-top: 20px;
+  }
+
+  .education {
+    margin-left: 0;
+    margin-right: 25px;
+    margin-top: 20px;
+  }
+
+  .about {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+  }
+
+  .experience {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 20px;
+  }
+
+  .projects {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 20px;
+  }
+}
