@@ -11,19 +11,13 @@ body {
   width: 100%;
 }
 
-#left {
-  /* background-color: white; */
-}
-
-#right {
-  /* background-color: white; */
-}
-
 .profile {
   background-color: rgba(255, 255, 255, 0.9);
   border: 1px solid black;
   border-radius: 10px;
   box-shadow: 5px 5px 0px black;
+  height: auto;
+  margin-bottom: 15px;
   margin-left: 5px;
   margin-right: 10px;
 }
@@ -43,6 +37,10 @@ body {
 .details {
   font-size: 14px;
   margin-left: 10px;
+}
+
+.onlineNow {
+  width: 60%;
 }
 
 .music {
@@ -70,23 +68,22 @@ audio::-webkit-media-controls-panel {
   border: 1px solid black;
   border-radius: 10px;
   box-shadow: 5px 5px 0px black;
-  height: 125px;
+  height: auto;
   margin-left: 5px;
   margin-right: 10px;
   margin-top: 15px;
 }
 
-.onlineNow {
-  width: 60%;
+.contactLink {
+  color: black;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
 }
 
-.buttons {
-  margin-left: 5px;
-  margin-right: 5px;
-}
-
-#colLeft {
-  margin-right: 5px;
+.contactLink:hover {
+  letter-spacing: 1px;
+  text-shadow: 1px 1px blue;
 }
 
 #contact {
@@ -97,10 +94,17 @@ audio::-webkit-media-controls-panel {
 #contactButton {
   border: 1px solid black;
   border-radius: 5px;
-  font-size: 13px;
-  font-weight: 500;
   margin-bottom: 5px;
   width: 100%;
+}
+
+.buttons {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#colLeft {
+  margin-right: 5px;
 }
 
 .skills {
@@ -114,8 +118,12 @@ audio::-webkit-media-controls-panel {
   margin-top: 15px;
 }
 
+.skills ul {
+  list-style-image: url(images/stars.png);
+}
+
 .skills li {
-  font-size: 14px;
+  font-size: 12px;
 }
 
 #skills {
@@ -129,18 +137,16 @@ audio::-webkit-media-controls-panel {
   border-radius: 10px;
   box-shadow: 5px 5px 0px black;
   height: auto;
+  margin-bottom: 0;
   margin-left: 5px;
   margin-right: 10px;
   margin-top: 15px;
 }
 
 .educationTitle {
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 500;
-}
-
-.education li {
-  font-size: 14px;
+  margin-left: 10px;
 }
 
 #education {
@@ -148,8 +154,72 @@ audio::-webkit-media-controls-panel {
   margin-top: 5px;
 }
 
+.education ul {
+  list-style-image: url(images/sun.png);
+}
+
 .schoolList li {
-  margin-right: 20px;
+  font-size: 13px;
+  margin-right: 10px;
+}
+
+.about {
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 0px black;
+  height: auto;
+  margin-left: 5px;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+
+#about {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.experience {
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 0px black;
+  height: auto;
+  margin-left: 5px;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+
+.experience ul {
+  list-style-image: url(images/moon.png);
+}
+
+#experience {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.experienceBox {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.jobList li {
+  margin-right: 5px;
+  font-size: 14px;
+}
+
+.accordion,
+.accordion-item,
+.accordion-body,
+.accordion-collapse,
+.accordion-button {
+  background-color: rgba(255, 255, 255, 0.01);
+}
+
+.accordion-button {
+  font-size: 14px;
+  font-weight: 500;
 }
 
 .projects {
@@ -158,6 +228,7 @@ audio::-webkit-media-controls-panel {
   border-radius: 10px;
   box-shadow: 5px 5px 0px black;
   height: auto;
+  margin-bottom: 20px;
   margin-left: 5px;
   margin-right: 10px;
   margin-top: 15px;
@@ -193,63 +264,9 @@ audio::-webkit-media-controls-panel {
   text-decoration: none;
 }
 
-.about {
-  background-color: rgba(255, 255, 255, 0.9);
-  border: 1px solid black;
-  border-radius: 10px;
-  box-shadow: 5px 5px 0px black;
-  height: 150px;
-  margin-left: 5px;
-  margin-right: 10px;
-  margin-top: 15px;
-}
-
-#about {
-  margin-left: 10px;
-  margin-top: 5px;
-}
-
-.experience {
-  background-color: rgba(255, 255, 255, 0.9);
-  border: 1px solid black;
-  border-radius: 10px;
-  box-shadow: 5px 5px 0px black;
-  height: auto;
-  margin-left: 5px;
-  margin-right: 10px;
-  margin-top: 15px;
-}
-
-#experience {
-  margin-left: 10px;
-  margin-top: 5px;
-}
-
-.experienceBox {
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-.jobList {
-  margin-left: 10px;
-}
-
-.jobList li {
-  margin-right: 20px;
-  font-size: 14px;
-}
-
-.accordion,
-.accordion-item,
-.accordion-body,
-.accordion-collapse,
-.accordion-button {
-  background-color: rgba(255, 255, 255, 0.01);
-}
-
-.accordion-button {
-  font-size: 14px;
-  font-weight: 500;
+#projectLink:hover {
+  letter-spacing: 1px;
+  text-shadow: 1px 1px blue;
 }
 
 footer {
@@ -268,6 +285,8 @@ footer {
   }
 
   .profile {
+    height: 22vh;
+    margin-bottom: 2vh;
     margin-left: 0;
     margin-right: 25px;
   }
@@ -278,44 +297,60 @@ footer {
   }
 
   .music {
+    height: 7vh;
+    margin-bottom: 2vh;
     margin-left: 0;
     margin-right: 25px;
-    margin-top: 20px;
   }
 
   .contact {
+    height: 14vh;
+    margin-bottom: 2vh;
     margin-left: 0;
     margin-right: 25px;
-    margin-top: 20px;
   }
 
   .skills {
+    height: 12vh;
+    margin-bottom: 2vh;
     margin-left: 0;
     margin-right: 25px;
-    margin-top: 20px;
   }
 
   .education {
+    margin-bottom: 2vh;
     margin-left: 0;
     margin-right: 25px;
-    margin-top: 20px;
   }
 
   .about {
+    height: 11vh;
+    margin-bottom: 2vh;
     margin-left: 0;
     margin-right: 0;
     margin-top: 0;
   }
 
   .experience {
+    height: 53vh;
+    margin-bottom: 2vh;
     margin-left: 0;
     margin-right: 0;
-    margin-top: 20px;
+  }
+
+  .experienceBox {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .jobList li {
+    margin-right: 25px;
+    font-size: 14px;
   }
 
   .projects {
+    height: 26vh;
     margin-left: 0;
     margin-right: 0;
-    margin-top: 20px;
   }
 }
