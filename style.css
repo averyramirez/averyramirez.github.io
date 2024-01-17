@@ -23,8 +23,11 @@ body {
 }
 
 #name {
+  font-family: "Orbitron", sans-serif;
+  letter-spacing: 2px;
   margin-left: 10px;
   margin-top: 5px;
+  text-shadow: 1px 1px rgb(175, 150, 243);
 }
 
 .self {
@@ -83,12 +86,15 @@ audio::-webkit-media-controls-panel {
 
 .contactLink:hover {
   letter-spacing: 1px;
-  text-shadow: 1px 1px blue;
+  text-shadow: 1px 1px rgb(175, 150, 243);
 }
 
 #contact {
+  font-family: "Orbitron", sans-serif;
+  letter-spacing: 2px;
   margin-left: 10px;
   margin-top: 5px;
+  text-shadow: 1px 1px rgb(175, 150, 243);
 }
 
 #contactButton {
@@ -127,8 +133,11 @@ audio::-webkit-media-controls-panel {
 }
 
 #skills {
+  font-family: "Orbitron", sans-serif;
+  letter-spacing: 2px;
   margin-left: 10px;
   margin-top: 5px;
+  text-shadow: 1px 1px rgb(175, 150, 243);
 }
 
 .education {
@@ -150,8 +159,11 @@ audio::-webkit-media-controls-panel {
 }
 
 #education {
+  font-family: "Orbitron", sans-serif;
+  letter-spacing: 2px;
   margin-left: 10px;
   margin-top: 5px;
+  text-shadow: 1px 1px rgb(175, 150, 243);
 }
 
 .education ul {
@@ -179,6 +191,33 @@ audio::-webkit-media-controls-panel {
   margin-top: 5px;
 }
 
+.aboutMe span {
+  animation: moveDown 1.3s;
+  animation-delay: calc(0.2s * var(--i));
+  animation-fill-mode: both;
+  color: black;
+  display: inline-block;
+  font-family: "Orbitron", sans-serif;
+  font-size: 44px;
+  letter-spacing: 2px;
+  overflow: hidden;
+  position: relative;
+  text-shadow: 1px 1px rgb(175, 150, 243);
+  white-space: nowrap;
+}
+
+@keyframes moveDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
 .experience {
   background-color: rgba(255, 255, 255, 0.9);
   border: 1px solid black;
@@ -195,8 +234,11 @@ audio::-webkit-media-controls-panel {
 }
 
 #experience {
+  font-family: "Orbitron", sans-serif;
+  letter-spacing: 2px;
   margin-left: 10px;
   margin-top: 5px;
+  text-shadow: 1px 1px rgb(175, 150, 243);
 }
 
 .experienceBox {
@@ -236,8 +278,11 @@ audio::-webkit-media-controls-panel {
 }
 
 #projects {
+  font-family: "Orbitron", sans-serif;
+  letter-spacing: 2px;
   margin-left: 10px;
   margin-top: 5px;
+  text-shadow: 1px 1px rgb(175, 150, 243);
 }
 
 .projectSquares {
@@ -266,21 +311,321 @@ audio::-webkit-media-controls-panel {
 
 #projectLink:hover {
   letter-spacing: 1px;
-  text-shadow: 1px 1px blue;
+  text-shadow: 1px 1px rgb(175, 150, 243);
 }
 
 footer {
   margin-top: 20px;
 }
 
-@media (min-width: 575px) {
+@media (min-width: 576px) {
+  .main {
+    margin-left: 1%;
+    margin-top: 1vh;
+    width: 98%;
+  }
+
+  .about {
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 899px) {
+  .main {
+    margin-left: 1%;
+    margin-top: 1vh;
+    width: 98%;
+  }
+
+  .profile {
+    height: 20vh;
+    margin-bottom: 2vh;
+    margin-top: 0;
+  }
+
+  .music {
+    height: 8vh;
+    margin-bottom: 2vh;
+    margin-top: 0;
+  }
+
+  .contact {
+    height: 15vh;
+    margin-bottom: 2vh;
+    margin-top: 0;
+  }
+
+  .skills {
+    height: 14vh;
+    margin-bottom: 2vh;
+    margin-top: 0;
+  }
+
+  .education {
+    height: 33vh;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .about {
+    height: 10vh;
+    margin-bottom: 2vh;
+    margin-top: 0;
+  }
+
+  .experience {
+    height: 61vh;
+    margin-bottom: 2vh;
+    margin-top: 0;
+  }
+
+  .projects {
+    height: 23vh;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  #projectLink {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 999px) {
+  .main {
+    margin-left: 5%;
+    margin-top: 1vh;
+    width: 90%;
+  }
+
+  .profile {
+    margin-bottom: 2vh;
+    margin-top: 0;
+  }
+
+  .music {
+    margin-bottom: 2vh;
+    margin-top: 0;
+  }
+
+  .contact {
+    margin-bottom: 2vh;
+    margin-top: 0;
+  }
+
+  .skills {
+    margin-bottom: 2vh;
+    margin-top: 0;
+  }
+
+  .education {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .about {
+    height: 11vh;
+    margin-bottom: 2vh;
+    margin-top: 0;
+  }
+
+  .aboutMe span {
+    margin-top: 10px;
+  }
+
+  .experience {
+    height: 58vh;
+    margin-bottom: 2vh;
+    margin-top: 0;
+  }
+
+  .projects {
+    height: 25vh;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  #projectLink {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1199px) {
+  .main {
+    margin-left: 10%;
+    margin-top: 5px;
+    width: 80%;
+  }
+
+  .profile {
+    height: 20vh;
+    margin-bottom: 2vh;
+  }
+
+  .music {
+    height: 8vh;
+    margin-bottom: 2vh;
+    margin-top: 0;
+  }
+
+  .skills {
+    height: 13vh;
+    margin-bottom: 2vh;
+    margin-top: 0;
+  }
+
+  .education {
+    height: 33vh;
+    margin-bottom: 2vh;
+    margin-top: 0;
+  }
+
+  .about {
+    height: 10vh;
+    margin-bottom: 2vh;
+    margin-top: 0;
+  }
+
+  .aboutMe span {
+    font-size: 44px;
+    margin-top: 8px;
+  }
+
+  .experience {
+    height: 57vh;
+    margin-bottom: 2vh;
+    margin-top: 0;
+  }
+
+  .projects {
+    height: 26vh;
+    margin-bottom: 2vh;
+    margin-top: 0;
+  }
+
+  #projectImage {
+    padding-bottom: 5px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 5px;
+  }
+}
+
+@media (min-width: 1399px) {
+  .main {
+    margin-left: 11%;
+    margin-top: 5px;
+    width: 78%;
+  }
+
+  .skills {
+    height: 13vh;
+    margin-bottom: 2vh;
+    margin-top: 0;
+  }
+
+  .about {
+    margin-bottom: 2vh;
+    margin-right: 0;
+    margin-top: 0;
+  }
+
+  .experience {
+    height: 54vh;
+    margin-bottom: 2vh;
+    margin-left: 5px;
+    margin-right: 0;
+    margin-top: 0;
+  }
+
+  .experienceBox {
+    margin-bottom: 2vh;
+    margin-top: 0;
+    margin-left: 10px;
+    margin-right: 0;
+  }
+
+  .projects {
+    height: 29vh;
+    margin-right: 0;
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 1599px) {
+  .main {
+    margin-left: 14%;
+    margin-top: 10px;
+    width: 72%;
+  }
+
+  .skills {
+    height: 12vh;
+  }
+
+  .about {
+    margin-right: 0;
+    margin-top: 0;
+  }
+
+  .experience {
+    height: 52vh;
+    margin-bottom: 2vh;
+    margin-left: 5px;
+    margin-right: 0;
+  }
+
+  .experienceBox {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .projects {
+    height: 30vh;
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 1799px) {
+  .main {
+    margin-left: 15%;
+    margin-top: 20px;
+    width: 70%;
+  }
+
+  .contact {
+    height: 15vh;
+  }
+
+  .about {
+    margin-right: 0;
+    margin-top: 0;
+  }
+
+  .experience {
+    height: 55vh;
+    margin-bottom: 2vh;
+    margin-left: 5px;
+    margin-right: 0;
+  }
+
+  .experienceBox {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .projects {
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 1800px) {
   body {
     background-size: cover;
   }
 
   .main {
     margin-left: 20%;
-    margin-top: 20px;
+    margin-top: 10px;
     width: 60%;
   }
 
@@ -324,13 +669,16 @@ footer {
   }
 
   .about {
-    height: 11vh;
+    height: 12vh;
     margin-bottom: 2vh;
     margin-left: 0;
     margin-right: 0;
     margin-top: 0;
   }
 
+  .aboutMe span {
+    margin-top: 15px;
+  }
   .experience {
     height: 53vh;
     margin-bottom: 2vh;
@@ -349,7 +697,7 @@ footer {
   }
 
   .projects {
-    height: 26vh;
+    height: 27vh;
     margin-left: 0;
     margin-right: 0;
   }
